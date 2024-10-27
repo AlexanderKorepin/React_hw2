@@ -18,7 +18,7 @@ function CommentsList() {
                 <ul class="markers">
                     {comments.map((comment) => (
                         <li>
-                            {comment.text} <button class="btn" onClick={() => deleteComments(comment.id)}>Удаалить комментарий</button>
+                            {comment.text} <button class="btn" onClick={() => deleteComments(comment.id)}>Удалить комментарий</button>
                             
                         </li>
                     ))}
