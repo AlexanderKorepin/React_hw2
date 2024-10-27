@@ -1,0 +1,26 @@
+.markers {
+	margin: 0;
+  padding: 0; 
+}
+.markers li {
+	display: block;
+	margin: 7px 0;
+	padding-left: 15px;
+	font-size: 14px;
+  margin-right:auto;
+}
+.btn{
+  display: block; 
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.btn:hover {
+	color: #3a7999;
+	background-color: #7dab8b;
+  transition: 0.3s ease-in-out;
+  color: rgb(64, 58, 58);
+}
